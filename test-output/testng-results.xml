@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="84401" started-at="2020-08-20T21:05:29 IST" finished-at="2020-08-20T21:06:54 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="84401" started-at="2020-08-20T21:05:29 IST" finished-at="2020-08-20T21:06:54 IST">
+      <class name="Automation_Project.AutomationMain">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Automation_Project.AutomationMain@2781e022]" name="setup" is-config="true" duration-ms="26989" started-at="2020-08-20T21:05:29 IST" finished-at="2020-08-20T21:05:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Accountpage()[pri:0, instance:Automation_Project.AutomationMain@2781e022]" name="Accountpage" duration-ms="5292" started-at="2020-08-20T21:05:56 IST" finished-at="2020-08-20T21:06:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Accountpage -->
+        <test-method status="PASS" signature="createAccountPage()[pri:1, instance:Automation_Project.AutomationMain@2781e022]" name="createAccountPage" duration-ms="11266" started-at="2020-08-20T21:06:01 IST" depends-on-methods="Automation_Project.AutomationMain.Accountpage" finished-at="2020-08-20T21:06:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountPage -->
+        <test-method status="PASS" signature="addtoCart()[pri:3, instance:Automation_Project.AutomationMain@2781e022]" name="addtoCart" duration-ms="40102" started-at="2020-08-20T21:06:13 IST" finished-at="2020-08-20T21:06:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtoCart -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Automation_Project.AutomationMain@2781e022]" name="tearDown" is-config="true" duration-ms="666" started-at="2020-08-20T21:06:53 IST" finished-at="2020-08-20T21:06:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Automation_Project.AutomationMain -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
